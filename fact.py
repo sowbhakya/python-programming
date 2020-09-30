@@ -7,4 +7,4 @@
     elif(a==0):
         print "factorial 1"
     else:
-        print"Enter positiive only"
+        print"Enter positive number only"
