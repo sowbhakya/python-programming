@@ -1,9 +1,10 @@
     a=input("Enter the number")
-    b=a-1
+   
     if(a>0):
-        while(b>0):
-            a=a*b
-            b=b-1
+        while(a>1):
+            a=a*(a-1)
         print"factorial",a
+    elif(a==0):
+        print "factorial 1"
     else:
         print"Enter positiive only"
